@@ -28,7 +28,7 @@ const Product = () => {
   }, [])
   return (
     <div style={{ padding: '50px',marginTop:'80px' }} >
-      <Link to="/">
+      <Link to="/react-store">
       <div className={styles.header}>
         <MdOutlineKeyboardArrowLeft/>
         <span>Back</span>

@@ -60,7 +60,7 @@ const Home = () => {
                 <div className={styles.productContainer}>
                     {Array.isArray(products) && products.map((product, index) => {
                         return (
-                            <Link to={`/product/${product.id}`} key={product.id}>
+                            <Link to={`/react-store/product/${product.id}`} key={product.id}>
                                 <div className={styles.product} >
                                     <img src={product.image} className={styles.image} />
                                     <span style={{ fontWeight: '500' }}> ₹ {product.price}</span>

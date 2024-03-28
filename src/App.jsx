@@ -32,15 +32,15 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/react-store",
       element: <Layout />,
       children: [
         {
-          path: "/",
+          path: "/react-store",
           element: <Home />
         },
         {
-          path: "/product/:id",
+          path: "/react-store/product/:id",
           element: <Product />,
         },
       ]

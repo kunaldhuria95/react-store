@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-        <Link to="/">
+        <Link to="/react-store">
         <img src="/shop.png" className={styles.shop} />
         
         </Link>
