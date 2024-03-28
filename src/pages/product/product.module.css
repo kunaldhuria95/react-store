@@ -1,0 +1,44 @@
+.header{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.image{
+   height: 100%;
+   width: 100%;
+    background: none;
+}
+.left{
+    width: 400px;
+    height: 500px;
+}
+.info{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+}
+.starContainer{
+display: flex;
+align-items: center;
+gap: 5px;
+margin-bottom:10px;
+}
+.price{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.star{
+    color: rgb(255, 255, 0);
+    font-size: 30px;
+   
+}
+.loading{
+    height: 90vh;
+}
