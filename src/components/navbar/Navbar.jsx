@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
         <Link to="/react-store">
-        <img src="/shop.png" className={styles.shop} />
+        <img src="./react-store/shop.png" className={styles.shop} />
         
         </Link>
     </div>
